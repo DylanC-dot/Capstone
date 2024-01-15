@@ -3,20 +3,28 @@
     <head>
         <title>Cat breed website</title>
         <meta charset="utf-8">
-    </head>
-    <body style="background-color:#c2d1de">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Oswald&display=swap" rel="stylesheet">
+    </head> 
+
         <!-- Capstone assignment -->
         <a href="#footer">Footer</a>
         <header>
-            <h1>Cat breeds</h1>     
+            <h1>Cat breeds</h1>  
+            <ul>
+                <a href="./pages/about.html"><li>About</li></a>
+                <a href="./pages/contact.html"></aa><li>Contact</li></a>
+            </ul>   
         </header>
         <main>
             <h2>Everything you need to know about cats</h2>
-            <p>Here is where you can find fun facts and quick descriptions on the top 10 cat breeds in North America!</p>
         <section>
             <h2>Top 10 most popular cat breeds in North America!</h2>
+            <p>Here is where you can find fun facts and quick descriptions on the top 10 cat breeds in North America!</p>
             <ol type=A>
-                <li>American Shorthair</li>
+                <li class="shorthair">American Shorthair</li>
                 <dd>Though American Shorthair cats would love to snuggle up on a couch with you, theyre also known as working cats: hearty, muscular, and alert. They typically adapt well to humans and animals alike and are generally well-rounded in temperament.</dd>
                     <img src="images/american-shorthair-cat.jpg"
                         alt="Photo of american short hair"
@@ -27,7 +35,7 @@
                         pixabay
                     </a>
                     
-                <li>Domestic Shorthair</li>
+                <li class="domestic-shorthair">Domestic Shorthair</li>
                 <dd>Not to be confused with the American Shorthair, the Domestic Shorthair is often considered to be the “mutt” of cat breeds due to their mixed and unknown heritages. Because of this, Domestic Shorthairs can present a variety of physical attributes, but they are generally medium-sized with round faces, sleek and soft short coats, and can be any mix of colors</dd>
                     <img src="images/domestic-shorthair.jpg"
                         alt="Photo of Domestic short hair"  
@@ -48,7 +56,7 @@
                         pixabay
                     </a>
                     
-                <li>Siamese</li>
+                <li class="siamese">Siamese</li>
                 <dd>Perhaps one of the most distinctive breeds, Siamese cats are most often cream-colored with grey-brown paws and icy blue eyes. Everything about Siamese is a bit pointier than other breeds, from the large, triangular ears to their delicate paws. They will often have the same grey-brown coloring on their ears and face. Siamese cats are now bred to come in different colors and patterns.</dd>
                     <img src="images/siamese.jpg"
                         alt="Photo of Siamese cat"
@@ -125,7 +133,7 @@
         </section>
         </main>
         <footer id="footer">
-                <p>Check out my <a href="https://www.instagram.com/"
+                <p class="instagram">Check out my <a href="https://www.instagram.com/"
                 target="_blank">
                 instagram</a> </p>
         </footer>

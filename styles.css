@@ -1,0 +1,56 @@
+h1{
+   color:#000000; 
+   font-size:64px;
+   text-decoration: underline;
+   font-family: "Lemon", serif, 'Times New Roman', Times,;
+   
+}
+
+body{
+    background-color: rgb(199, 134, 84);
+    color: black; 
+}
+
+p{
+    color: rgb(252, 0, 0);
+    font-size: 32px;
+}
+
+li{
+    color:whitesmoke;
+    font-size:32px;
+    font-style:italic;
+    text-decoration: underline;
+}
+
+dd{
+    font-size:24px;
+}
+
+h2{
+    font-size:32px;
+    color:rgb(255, 0, 0)
+}
+
+.instagram{
+    color:blue;
+    font-size:16px;
+}
+
+.domestic-shorthair{
+    font-size: 32px;
+    color: black;
+    
+}
+
+.shorthair{
+    color:grey
+}
+
+.siamese{
+    color:darkblue;
+}
+
+
+
+
