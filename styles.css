@@ -1,4 +1,7 @@
 /* Website styles */
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 header h1{
    color:#000000; 
    font-size:86px;
@@ -94,7 +97,7 @@ a:active {
   text-decoration: none;
   color: red;
 }
-
+/* Pseudo-class selector */
 a:hover {
   text-decoration: underline;
 }
