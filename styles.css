@@ -1,21 +1,26 @@
-h1{
+/* Website styles */
+header h1{
    color:#000000; 
-   font-size:64px;
+   font-size:86px;
    text-decoration: underline;
    font-family: "Lemon", serif, 'Times New Roman', Times,;
-   
+   text-align:center;
+   /* text align */
 }
 
 body{
-    background-color: rgb(199, 134, 84);
+    background-color: rgb(178, 177, 174);
     color: black; 
 }
-
+/* line height, font weight,text align */
 p{
-    color: rgb(252, 0, 0);
+    color: rgb(139, 29, 29);
     font-size: 32px;
+    font-weight:bold;
+    line-height:1;
+    text-align:center;
 }
-
+/* font style */
 li{
     color:whitesmoke;
     font-size:32px;
@@ -28,8 +33,10 @@ dd{
 }
 
 h2{
-    font-size:32px;
-    color:rgb(255, 0, 0)
+    font-size:48px;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    line-height:1;
 }
 
 .instagram{
@@ -43,14 +50,60 @@ h2{
     
 }
 
-.shorthair{
-    color:grey
+.Americanshorthair{
+    color:rgb(74, 72, 72);
 }
 
 .siamese{
     color:darkblue;
 }
 
+.Mainecoon{
+    color:beige;
+    font-size:48px;
+}
 
+.Ragdoll{
+    color:lightblue;
+}
 
+.RussianBlue{
+    color:grey;
+}
 
+.Bengal{
+    color:orange;
+}
+
+.Bombay{
+    color:black;
+}
+
+.Persian{
+    color:rgb(180, 112, 16);
+}
+
+a {
+    color: red;
+    text-decoration: none;
+  }
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+}
+/* nesting */
+section li a {
+    font-size:32;
+    font-weight:900;
+  }
