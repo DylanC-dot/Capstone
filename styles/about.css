@@ -6,4 +6,6 @@ body{
 #about {
     background-color: rgb(11, 224, 240);
     color: rgb(255, 0, 0);
+    margin: auto;
+    text-align: center;
   }

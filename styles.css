@@ -1,10 +1,8 @@
 /* Website styles */
 * {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100%;
     line-height: 1;
-    /* border: 2px solid black;
-    margin: 1px; */
 
 }
 .title {
@@ -30,10 +28,19 @@ header {
   }
 
 body{
-    background-color: rgb(14, 104, 113);
-    color: black; 
+    background-image: url("./images/y-so-serious.png");
+    background-repeat: repeat;
+
+
 }
-/* line height, font weight,text align */
+
+.box{
+  background-image: url("./images/y-so-serious.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
 p{
     color: rgb(139, 29, 29);
     font-size: 32px;
@@ -41,9 +48,8 @@ p{
     line-height:1;
     text-align:center;
     
-      
 }
-/* font style */
+
 li{
     color:whitesmoke;
     font-size:32px;
@@ -58,38 +64,38 @@ dd{
 
 h2{
     font-size:48px;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     text-align:center;
     line-height:1;
 }
 
 .instagram{
-    color:blue;
+    color:white;
     font-size:16px;
 }
 
-.domestic-shorthair{
+.Domestic-shorthair{
     font-size: 32px;
     color: black;
     
 }
 
-.domesticshorthairtext{
-    background-color:grey;
+.Domesticshorthairtext{
+    background-color:lightgrey;
 }
 
-.Americanshorthair{
+.American-shorthair{
     color:rgb(74, 72, 72);
 }
 
 .Americanshorthairtext{
-    background-color:grey;
+    background-color:lightgrey;
 }
 
-.domesticlonghairtext{
+.Domesticlonghairtext{
     background-color:rgb(249, 232, 211);
 }
-.siamese{
+.Siamese{
     color:darkblue;
 }
 
@@ -114,10 +120,10 @@ h2{
     background-color:lightblue;
 }
 
-.RussianBlue{
-    color:grey;
+.Russianblue{
+    color:darkgrey;
 }
-.russianbluetext{
+.Russianbluetext{
     background-color:lightgrey;
 }
 
@@ -134,7 +140,8 @@ h2{
 }
 
 .bombaytext{
-    background-color:grey;
+    background-color:black;
+    color:white;
 }
 
 .Persian{
@@ -156,7 +163,7 @@ a:active {
   text-decoration: none;
   color: red;
 }
-/* Pseudo-class selector */
+
 a:hover {
   text-decoration: underline;
 }
@@ -164,7 +171,7 @@ a:hover {
 a:visited {
   color: purple;
 }
-/* nesting */
+
 section li a {
     font-size:32;
     font-weight:900;
@@ -195,3 +202,46 @@ section li a {
     margin: 1%;
     padding: 1%;
   }
+
+  .container{
+    max-width: 1000px;
+    max-height: 500;
+    margin: 0 auto;
+  }
+
+  div{
+    margin: 0 auto;
+  }
+
+  .toc{
+    margin: auto;
+    text-align: center;
+  }
+  
+  .box{
+    background-image: url(images/Background-cat.png);
+    width: 100px;
+    height: 300px;
+    background-size: 100%;
+  }
+
+  .toc-list1{
+    margin-left:400px;
+  }
+
+
+  .div1{
+    display:flex;
+
+  }
+  .toc{
+    font-size:32px;
+  }
+
+ .banner{
+    height: 350px;
+    background-image: url(images/Background-cat.png);
+    background-size: cover;
+    background-position: center;
+ }
+  
