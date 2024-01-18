@@ -42,7 +42,7 @@ body{
 }
 
 p{
-    color: rgb(139, 29, 29);
+    color: whitesmoke;
     font-size: 32px;
     font-weight:bold;
     line-height:1;
@@ -153,7 +153,7 @@ h2{
 }
 
 a {
-    color: red;
+    color: blue;
     text-decoration: none;
   }
 
@@ -161,7 +161,7 @@ a:link,
 a:focus,
 a:active {
   text-decoration: none;
-  color: red;
+  color: blue;
 }
 
 a:hover {
@@ -244,4 +244,11 @@ section li a {
     background-size: cover;
     background-position: center;
  }
+
+ .photo {
+  background-position: 50% right;
+}
   
+.icon {
+  background-position: 0 100px;
+}
